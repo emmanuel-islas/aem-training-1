@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:description="Use the Tableau JavaScript API to integrate Tableau visualizations into your own web applications."
+    jcr:primaryType="cq:Component"
+    jcr:title="Tableau component!"
+    allowedParents="[\0]"
+    componentGroup="Training-phase2"/>
