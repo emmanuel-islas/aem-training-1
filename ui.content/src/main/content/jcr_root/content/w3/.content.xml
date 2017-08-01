@@ -7,13 +7,13 @@
         cq:lastReplicated="{Date}2017-07-25T16:58:46.320-05:00"
         cq:lastReplicatedBy="admin"
         cq:lastReplicationAction="Activate"
-        cq:template="/apps/training-phase2/template/page-content"
+        cq:template="/apps/w3/template/page-content"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Training Fase2!"
         jcr:uuid="b6336954-410b-45b9-b5ce-11fa79612a8e"
-        sling:resourceType="training-phase2/components/page-content"/>
+        sling:resourceType="w3/components/page-content"/>
     <Collapsible/>
     <youtube_video/>
 </jcr:root>

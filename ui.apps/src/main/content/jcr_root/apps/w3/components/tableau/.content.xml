@@ -4,4 +4,4 @@
     jcr:primaryType="cq:Component"
     jcr:title="Tableau component!"
     allowedParents="[\0]"
-    componentGroup="Training-phase2"/>
+    componentGroup="w3"/>
