@@ -12,7 +12,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Collapsible!"
-        jcr:uuid="62cf97be-0f8e-47af-b96a-d969c0b5eeb5"
+        jcr:uuid="135ee2e9-6fa7-4a9d-9f1e-f41bc4ffecae"
         sling:resourceType="w3/components/page-content">
         <content
             jcr:primaryType="nt:unstructured"
