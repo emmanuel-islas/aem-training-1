@@ -17,6 +17,18 @@
                         fieldLabel="URL Video"
                         name="./urlVideo"
                         xtype="textfield"/>
+                    <type
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="type the url of youtube video"
+                        fieldLabel="URL Video"
+                        name="./type"
+                        xtype="select">
+                        <items jcr:primaryType="cq:WidgetCollection">
+                            <_x0031_6_9
+                                jcr:primaryType="cq:Widget"
+                                xtype="textfield"/>
+                        </items>
+                    </type>
                 </items>
             </tab1>
         </items>

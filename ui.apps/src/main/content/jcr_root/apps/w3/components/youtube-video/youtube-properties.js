@@ -3,16 +3,13 @@
 
 
 
-
-
-
 function loadURLVideo() {
     
     var CONST = {
         PROP_VIEW_NAME: "jcr:viewName",
         CUSTOM_VIEW_NAME: "viewName"
     };
-    
+
     var viewSelected = {};
 
     

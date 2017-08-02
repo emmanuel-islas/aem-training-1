@@ -4,4 +4,4 @@
     jcr:primaryType="cq:Component"
     jcr:title="Youtube Component!"
     allowedParents="[\0]"
-    componentGroup="w3"/>
+    componentGroup="Training-w3"/>
