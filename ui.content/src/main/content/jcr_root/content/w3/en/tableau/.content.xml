@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-07-24T15:58:53.074-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/w3/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Tableau"
+        sling:resourceType="w3/components/page-content">
+        <content
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <tableau
+                jcr:created="{Date}2017-07-24T15:58:03.933-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-07-24T15:58:53.073-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="w3/components/tableau"
+                custom-title="Tableau Integration"/>
+        </content>
+    </jcr:content>
+</jcr:root>
