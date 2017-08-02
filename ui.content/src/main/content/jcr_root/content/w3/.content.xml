@@ -13,7 +13,10 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="Training Fase2!"
         jcr:uuid="b6336954-410b-45b9-b5ce-11fa79612a8e"
-        sling:resourceType="w3/components/page-content"/>
+        sling:redirect="{Boolean}true"
+        sling:redirectStatus="{Long}302"
+        sling:resourceType="foundation/components/redirect"
+        redirectTarget="/content/w3/en"/>
     <Collapsible/>
     <youtube_video/>
 </jcr:root>
