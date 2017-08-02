@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Dialog"
-    title="Video dialog"
+    title="TypeSize"
     xtype="dialog">
     <items
         jcr:primaryType="cq:Widget"
@@ -9,26 +9,14 @@
         <items jcr:primaryType="cq:WidgetCollection">
             <tab1
                 jcr:primaryType="cq:Panel"
-                title="Tab 1">
+                title="Opciones de Video">
                 <items jcr:primaryType="cq:WidgetCollection">
-                    <url-video
-                        jcr:primaryType="cq:Widget"
-                        fieldDescription="type the url of youtube video"
-                        fieldLabel="URL Video"
-                        name="./urlVideo"
-                        xtype="textfield"/>
                     <type
                         jcr:primaryType="cq:Widget"
-                        fieldDescription="type the url of youtube video"
-                        fieldLabel="URL Video"
+                        fieldDescription="Aspect ratio for video 16:9 or 4:3"
+                        fieldLabel="Type / Size"
                         name="./type"
-                        xtype="select">
-                        <items jcr:primaryType="cq:WidgetCollection">
-                            <_x0031_6_9
-                                jcr:primaryType="cq:Widget"
-                                xtype="textfield"/>
-                        </items>
-                    </type>
+                        xtype="textfield"/>
                 </items>
             </tab1>
         </items>
