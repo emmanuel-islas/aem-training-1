@@ -1,2 +1,0 @@
-#base=scripts
-youtube-properties.js
