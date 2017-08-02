@@ -14,18 +14,18 @@
 			params.aspectRadio = resource.properties[CONST.CUSTOM_ASPECT];
 			*/
 			params.provider = 'youtube';
-			params.aspectRadio = '16by9';
-			params.url = 'OYjZK_6i37M?list=RDEMvzkIsCGpImNWH3Tfp-h1LQ';
+			params.aspectRadio = '4by3';
+			params.urlID = 'qkIvs6Z-5Ms';
 
 			switch (params.provider) {
 				case 'youtube':
-					urlProvider = 'http://www.youtube.com/watch?v=';
+					urlProvider = 'https://www.youtube.com/embed/';
 					break;
 				case 'vimeo':
-				 urlProvider = 'https://vimeo.com/';
+				 urlProvider = 'https://player.vimeo.com/video/';
 				 break;
 			};
 
-			params.url = urlProvider + params.url;
+			params.url = urlProvider + params.urlID;
       return params;
   });
