@@ -16,7 +16,35 @@
                         fieldDescription="Aspect ratio for video 16:9 or 4:3"
                         fieldLabel="Type / Size"
                         name="./type"
+                        xtype="combo">
+                        <items jcr:primaryType="cq:WidgetCollection">
+                            <_x0031_6_9
+                                jcr:primaryType="cq:Widget"
+                                fieldDescription="16:9"
+                                value="1"
+                                xtype="field"/>
+                        </items>
+                    </type>
+                    <url-video
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="URL Id Video"
+                        fieldLabel="URL ID"
+                        name="./url-video"
                         xtype="textfield"/>
+                    <platform
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Aspect ratio for video 16:9 or 4:3"
+                        fieldLabel="Type / Size"
+                        name="./type"
+                        xtype="combo">
+                        <items jcr:primaryType="cq:WidgetCollection">
+                            <youtube
+                                jcr:primaryType="cq:Widget"
+                                fieldDescription="16:9"
+                                value="1"
+                                xtype="field"/>
+                        </items>
+                    </platform>
                 </items>
             </tab1>
         </items>
