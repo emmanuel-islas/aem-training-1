@@ -6,4 +6,4 @@
     jcr:primaryType="cq:Component"
     jcr:title="touchmulti!"
     sling:resourceSuperType="/components/parbase"
-    componentGroup="training-w3"/>
+    componentGroup="Training-w3"/>
