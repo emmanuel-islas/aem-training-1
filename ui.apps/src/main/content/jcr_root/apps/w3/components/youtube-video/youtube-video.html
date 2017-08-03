@@ -1,2 +1,9 @@
-<h1 data-sly-use.urlVideo="youtube-properties.js" >Id del Video: ${urlVideo.text}</h1>
-<iframe data-sly-use.urlVideo="youtube-properties.js" width="560" height="315" src="https://www.youtube.com/embed/${urlVideo.text}" frameborder="0" allowfullscreen ></iframe>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-10">
+      <div class="video-component embed-responsive embed-responsive-${video.aspectRadio}" data-sly-use.video="video-properties.js" >
+        <iframe class="embed-responsive-item" src="${video.url}" frameborder="0" allowfullscreen ></iframe>
+      </div>
+    </div>
+  </div>
+</div>
