@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:description="Template Responsivo 1."
+    jcr:description="For user  that wants to create fairly quickly different types of pages"
     jcr:primaryType="cq:Template"
-    jcr:title="Training Responsivo!"
-    allowedPaths="[/content/w3/.+]"
-    ranking="{Long}1">
+    jcr:title="Layout Responsive!"
+    allowedPaths="[/content/w3(/.*)?]"
+    ranking="{Long}3">
     <jcr:content
         jcr:primaryType="cq:PageContent"
-        sling:resourceType="w3/components/structure/layout-responsive">
+        sling:resourceType="/apps/w3/components/structure/responsive-page">
         <logo
             jcr:primaryType="nt:unstructured"
             sling:resourceType="w3/components/structure/logo"/>
         <title
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="w3/components/content/title"/>
+            sling:resourceType="/apps/w3/components/training-title"/>
         <topnav
             jcr:primaryType="nt:unstructured"
             sling:resourceType="w3/components/structure/topnav"/>
