@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Dialog"
     title="TypeSize"
     xtype="dialog">
@@ -11,40 +11,48 @@
                 jcr:primaryType="cq:Panel"
                 title="Opciones de Video">
                 <items jcr:primaryType="cq:WidgetCollection">
-                    <type
+                    <platform
                         jcr:primaryType="cq:Widget"
-                        fieldDescription="Aspect ratio for video 16:9 or 4:3"
-                        fieldLabel="Type / Size"
-                        name="./type"
-                        xtype="combo">
-                        <items jcr:primaryType="cq:WidgetCollection">
-                            <_x0031_6_9
-                                jcr:primaryType="cq:Widget"
-                                fieldDescription="16:9"
-                                value="1"
-                                xtype="field"/>
-                        </items>
-                    </type>
+                        fieldDescription="Source of video: Youtube, Vimeo"
+                        fieldLabel="Platform"
+                        name="./platform"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <youtube
+                                jcr:primaryType="nt:unstructured"
+                                text="Youtube"
+                                value="1"/>
+                            <vimeo
+                                jcr:primaryType="nt:unstructured"
+                                text="Vimeo"
+                                value="2"/>
+                        </options>
+                    </platform>
                     <url-video
                         jcr:primaryType="cq:Widget"
                         fieldDescription="URL Id Video"
                         fieldLabel="URL ID"
                         name="./url-video"
                         xtype="textfield"/>
-                    <platform
+                    <type
                         jcr:primaryType="cq:Widget"
                         fieldDescription="Aspect ratio for video 16:9 or 4:3"
                         fieldLabel="Type / Size"
                         name="./type"
-                        xtype="combo">
-                        <items jcr:primaryType="cq:WidgetCollection">
-                            <youtube
-                                jcr:primaryType="cq:Widget"
-                                fieldDescription="16:9"
-                                value="1"
-                                xtype="field"/>
-                        </items>
-                    </platform>
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <_x0031_6_9
+                                jcr:primaryType="nt:unstructured"
+                                text="16:9"
+                                value="1"/>
+                            <_x0034__3
+                                jcr:primaryType="nt:unstructured"
+                                text="4:3"
+                                value="2"/>
+                        </options>
+                    </type>
                 </items>
             </tab1>
         </items>
