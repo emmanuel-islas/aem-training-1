@@ -1,8 +1,8 @@
 <div class="container">
   <div class="row">
-    <div class="col-xs-12 col-sm-10">
-      <div class="video-component embed-responsive embed-responsive-${video.aspectRadio}" data-sly-use.video="video-properties.js" >
-        <iframe class="embed-responsive-item" src="${video.url}" frameborder="0" allowfullscreen ></iframe>
+    <div class="col-xs-12 col-sm-10" data-sly-use.video="video-properties.js">
+      <div class="video-component embed-responsive ${video.size}" >
+        <iframe class="embed-responsive-item" src="${video.urlVideo}" frameborder="0" allowfullscreen ></iframe>
       </div>
     </div>
   </div>

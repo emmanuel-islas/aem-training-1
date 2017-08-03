@@ -47,11 +47,11 @@
                             <_x0031_6_9
                                 jcr:primaryType="nt:unstructured"
                                 text="16:9"
-                                value="1"/>
+                                value="embed-responsive-16by9"/>
                             <_x0034__3
                                 jcr:primaryType="nt:unstructured"
                                 text="4:3"
-                                value="2"/>
+                                value="embed-responsive-4by3"/>
                         </items>
                     </type>
                 </items>
