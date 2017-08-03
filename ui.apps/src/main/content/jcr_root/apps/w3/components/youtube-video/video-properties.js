@@ -1,31 +1,17 @@
-"use strict";
+'use strict';
 
-  use(function () {
-      var CONST = {
-          CUSTOM_URL: "custom-url",
-					CUSTOM_PROVIDER: "custom-provider",
-          CUSTOM_ASPECT: "custom-aspect"
-      }
+use(function() {
+    var params = {
+        video_id: granite.resource.properties["url-video"],
+        provider: granite.resource.properties["platform"],
+        size: granite.resource.properties["type"]
+    };
+    var urlProvider = '';
+    if(params.provider == '1') {
+        params.urlVideo = 'https://www.youtube.com/embed/' + params.video_id;
+    } else {
+       params.urlVideo = 'https://player.vimeo.com/video/' + params.video_id;
+    }
 
-      var params = {};
-			var urlProvider = '';
-			/*
-			params.provider = resource.properties[CONST.CUSTOM_PROVIDER];
-			params.aspectRadio = resource.properties[CONST.CUSTOM_ASPECT];
-			*/
-			params.provider = 'youtube';
-			params.aspectRadio = '4by3';
-			params.urlID = 'qkIvs6Z-5Ms';
-
-			switch (params.provider) {
-				case 'youtube':
-					urlProvider = 'https://www.youtube.com/embed/';
-					break;
-				case 'vimeo':
-				 urlProvider = 'https://player.vimeo.com/video/';
-				 break;
-			};
-
-			params.url = urlProvider + params.urlID;
-      return params;
-  });
+    return params;
+});
