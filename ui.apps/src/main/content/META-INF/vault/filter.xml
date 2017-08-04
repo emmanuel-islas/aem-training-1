@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/apps/w3" mode="merge"/>
-    <filter root="/content/w3" mode="merge"/>
+    <filter root="/apps/w3"/>
+    <filter root="/content/w3"/>
     <filter root="/etc/clientlibs/bootstrap3.3.7"/>
     <filter root="/etc/clientlibs/jquery3.2.1"/>
 </workspaceFilter>
