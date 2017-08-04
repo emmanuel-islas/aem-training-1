@@ -1,9 +1,16 @@
-<div class="body_header header container_16">
-    <div class="header_logo grid_8" data-sly-resource="${'logo' @ resourceType='foundation/components/logo'}">logo</div>
-    <div class="header_topnav grid_8 search_area">
-    	<div class="header_toptool toptoolbar" data-sly-resource="${'topToolBar' @ resourceType='foundation/components/toolbar'}"></div>
-	</div>
-
-   	<div class="content_topnav toptoolbar toolbar" data-sly-resource="${'topnav' @ resourceType='w3/components/topnav'}"></div>
-
-</div>
+<!-- <div class="jumbotron">
+  <div class="header_logo grid_8" data-sly-resource="${'logo' @ resourceType='foundation/components/logo'}">logo</div>
+  <div class="header_topnav grid_8 search_area">
+    <div class="header_toptool toptoolbar" data-sly-resource="${'topToolBar' @ resourceType='foundation/components/toolbar'}"></div>
+   </div>
+  <div class="content_topnav toptoolbar toolbar" data-sly-resource="${'topnav' @ resourceType='w3/components/topnav'}"></div>
+</div> -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" data-sly-resource="${'logo' @ resourceType='foundation/components/logo'}"></a>
+    </div>
+    <div data-sly-resource="${'topToolBar' @ resourceType='foundation/components/toolbar'}"></div>
+    <div class="nav navbar-nav navbar-right" data-sly-resource="${'topToolBar' @ resourceType='foundation/components/toolbar'}"></div>
+  </div>
+</nav>
