@@ -1,0 +1,47 @@
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+     					data-sly-call="${clientlib.all @ categories='jquery3.2.1,bootstrap3.3.7'}"/>
+
+
+
+<div data-sly-include="header.html"></div>
+<div class="body_content container_16">
+    <div class="content_title grid_16" data-sly-resource="${'breadcrumb' @ resourceType='foundation/components/breadcrumb'}"></div>
+
+    <div class="content_title grid_16" data-sly-resource="${'title' @ resourceType='w3/components/structure/training-title'}"></div>
+
+
+
+
+    <div class="container-fluid">
+
+        <div class="row">
+        	<div class="col-md-2 col-xs-12"></div>
+            <div class="col-md-4 col-xs-12">
+
+            	<div class="form-group">
+                    <label for="imgProduct">Titulo Producto:</label>
+                    <img id="imgProduct" src="img/product.jfif" class="img-thumbnail" alt="Producto X" width="304" height="236">
+                </div>
+
+
+            </div>
+
+
+            <div class="col-md-4 col-xs-12">
+                <div class="form-group">
+                    <label for="descProduct">Descripción:</label>
+                    <textarea class="form-control" rows="5" id="descProduct">Este es un producto X</textarea>
+                </div>
+           </div>
+
+           <div class="col-md-2 col-xs-12"></div>
+
+     	</div>
+    </div>
+
+
+
+</div>
+
+
+<div data-sly-include="footer.html"></div>
